@@ -1,0 +1,25 @@
+#news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.news-tile {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.news-tile h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.news-tile p {
+    font-size: 1em;
+    color: #333;
+}
